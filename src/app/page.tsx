@@ -59,6 +59,8 @@ export default function LandingPage() {
               { text: "See Results", href: "#metrics" },
               { text: "Start Today", href: "#contact" },
             ]}
+            buttonClassName="text-white"
+            buttonTextClassName="text-white"
             buttonAnimation="slide-up"
           />
         </div>
@@ -158,6 +160,8 @@ export default function LandingPage() {
             title="Ready to Scale Your Sales?"
             description="Let's discuss your revenue targets and how we can help you hit them. No sales fluff, just results."
             buttons={[{ text: "Schedule Consultation", href: "#" }]}
+            buttonClassName="text-white"
+            buttonTextClassName="text-white"
           />
         </div>
 

@@ -23,9 +23,9 @@ export default function LandingPage() {
         contentWidth="mediumLarge"
         sizing="largeSmallSizeMediumTitles"
         background="fluid"
-        cardStyle="layered-gradient"
-        primaryButtonStyle="double-inset"
-        secondaryButtonStyle="layered"
+        cardStyle="outline"
+        primaryButtonStyle="flat"
+        secondaryButtonStyle="solid"
         headingFontWeight="medium"
     >
       <ReactLenis root>
@@ -99,7 +99,7 @@ export default function LandingPage() {
             useInvertedBackground={false}
             title="Your Growth Engine"
             description={[
-              "We are a team of data-obsessed marketers dedicated to the pay-per-lead model. We take on the risk so you can focus on building your product.",              "Our philosophy is simple: if you don't grow, we don't succeed. That's why we obsess over quality control, channel diversity, and ROI at every single step."]}
+              "We are a team of data-obsessed marketers dedicated to the pay-per-lead model. We take on the risk so you can focus on building your product.", "Our philosophy is simple: if you don't grow, we don't succeed. That's why we obsess over quality control, channel diversity, and ROI at every single step."]}
           />
         </div>
 

@@ -14,6 +14,8 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import { CheckCircle, ShieldCheck, TrendingUp, UserCheck, Map, Zap, Database } from "lucide-react";
 
 export default function LandingPage() {
+  const typeformUrl = "https://form.typeform.com/to/aqwQs9nL";
+
   return (
     <ThemeProvider
         defaultButtonVariant="elastic-effect"
@@ -36,7 +38,7 @@ export default function LandingPage() {
               { name: "Testimonials", id: "testimonials" },
             ]}
             brandName="Amplix "
-            button={{ text: "Get Leads", href: "#contact" }}
+            button={{ text: "Get Leads", href: typeformUrl }}
           />
         </div>
 
@@ -55,7 +57,7 @@ export default function LandingPage() {
             avatarText="Trusted by 500+ growing contracting businesses "
             buttons={[
               { text: "See Results", href: "#metrics" },
-              { text: "Start Today", href: "#contact" },
+              { text: "Start Today", href: typeformUrl },
             ]}
             buttonClassName="text-white"
             buttonTextClassName="text-white"
@@ -145,7 +147,7 @@ Our system is built to generate consistent inbound leads for service businesses 
             tag="Get Started"
             title="Ready to Scale Your Sales?"
             description="Let's discuss your revenue targets and how we can help you hit them. No sales fluff, just results."
-            buttons={[{ text: "Schedule Consultation", href: "#" }]}
+            buttons={[{ text: "Schedule Consultation", href: typeformUrl }]}
             buttonClassName="text-white"
             buttonTextClassName="text-white"
           />

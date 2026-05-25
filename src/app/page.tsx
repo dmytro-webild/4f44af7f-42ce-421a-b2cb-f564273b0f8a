@@ -112,11 +112,11 @@ Our system is built to generate consistent inbound leads for service businesses 
             textboxLayout="split"
             useInvertedBackground={false}
             testimonials={[
-              { id: "1", name: "Jane Smith", handle: "@janesmith", testimonial: "LeadGenius changed everything. Our sales team went from hunting leads to just closing them.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-caucasian-unshaved-man-eyeglasses-looking-camera-with-sincere-smile-isolated-gray_171337-630.jpg" },
+              { id: "1", name: "Jane Smith", handle: "@janesmith", testimonial: "Amplix changed everything. Our sales team went from hunting leads to just closing them.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-caucasian-unshaved-man-eyeglasses-looking-camera-with-sincere-smile-isolated-gray_171337-630.jpg" },
               { id: "2", name: "Mark Johnson", handle: "@markj", testimonial: "The lead quality is light years ahead of any other provider we have used.", imageSrc: "http://img.b2bpic.net/free-photo/skyscraper-view-city-leader-window-frame_1134-1034.jpg" },
               { id: "3", name: "Sarah Lee", handle: "@sarahlee", testimonial: "Finally, a partner that understands true ROI. We are hitting our targets consistently.", imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1600.jpg" },
               { id: "4", name: "David Brown", handle: "@dbrown", testimonial: "Exceptional communication and even better results. Highly recommended agency.", imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1676.jpg" },
-              { id: "5", name: "Emma Wilson", handle: "@ewilson", testimonial: "Consistent, reliable, and scalable. Exactly what our startup needed.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-blonde-businesswoman-formal-dressed-isolated-dark-textured-background_613910-5391.jpg" },
+              { id: "5", name: "Emma Wilson", handle: "@ewilson", testimonial: "Consistent, reliable, and scalable. Exactly what our business  needed.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-blonde-businesswoman-formal-dressed-isolated-dark-textured-background_613910-5391.jpg" },
             ]}
             title="Voices of Success"
             description="Hear from companies who transformed their sales pipeline with our service."

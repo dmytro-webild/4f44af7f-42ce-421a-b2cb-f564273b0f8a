@@ -153,7 +153,7 @@ Our system is built to generate consistent inbound leads for service businesses 
 
         <div id="footer" data-section="footer">
           <FooterLogoReveal
-            logoText="LeadGenius"
+            logoText=" Amplix"
             leftLink={{ text: "Privacy Policy", href: "#" }}
             rightLink={{ text: "Terms of Service", href: "#" }}
           />

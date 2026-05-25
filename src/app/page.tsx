@@ -71,11 +71,14 @@ export default function LandingPage() {
             useInvertedBackground={false}
             metrics={[
               { id: "m1", value: "15,000+", title: "Leads Generated", description: "High-intent leads delivered monthly", icon: CheckCircle },
-              { id: "m2", value: "4.2x", title: "Average ROI", description: "Turning ad spend into revenue", icon: TrendingUp },
+              { id: "m2", value: "4.2x", title: "Average ROI", description: "Leads that turn into revenue  ", icon: TrendingUp },
               { id: "m3", value: "98%", title: "Lead Quality", description: "Verified through multi-step vetting", icon: ShieldCheck },
             ]}
             title="Proven Performance"
-            description="Our numbers speak for themselves. We optimize every funnel to maximize your conversion rate."
+            description="We don’t charge retainers for “marketing.”
+We get paid when qualified leads actually come in. Simple.
+
+Our system is built to generate consistent inbound leads for service businesses using paid ads, funnels, follow-up systems, and conversion optimization."
           />
         </div>
 
@@ -89,8 +92,8 @@ export default function LandingPage() {
               { title: "Automated Nurture", description: "Seamless email and SMS drip campaigns keep leads warm until handover.", imageSrc: "http://img.b2bpic.net/free-photo/diet-healthy-eating-natural-food_53876-121381.jpg", buttonIcon: Zap },
               { title: "CRM Integration", description: "Direct syncing to your sales stack for real-time lead notification.", imageSrc: "http://img.b2bpic.net/free-photo/business-people-binary-code-sharing-technology-concept_53876-13712.jpg", buttonIcon: Database },
             ]}
-            title="Why LeadGenius?"
-            description="We don't just send traffic; we curate conversations that convert."
+            title="Why Amplix?"
+            description="We don't just send traffic; We give you leads that convert without long term contracts and monthly retainers"
           />
         </div>
 

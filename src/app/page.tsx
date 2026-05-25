@@ -22,7 +22,7 @@ export default function LandingPage() {
         borderRadius="soft"
         contentWidth="mediumLarge"
         sizing="largeSmallSizeMediumTitles"
-        background="fluid"
+        background="none"
         cardStyle="outline"
         primaryButtonStyle="flat"
         secondaryButtonStyle="solid"
@@ -44,17 +44,17 @@ export default function LandingPage() {
 
         <div id="hero" data-section="hero">
           <HeroCentered
-            background={{ variant: "gradient-bars" }}
+            background={{ variant: "plain" }}
             title="Pay-Per-Lead Marketing That Actually Scales"
-            description="Stop wasting budget on vanity metrics. Get high-intent, qualified leads delivered to your sales team daily. We guarantee performance, you focus on closing."
+            description="Stop wasting budget on vanity metrics. Get high-intent, qualified leads delivered to your contracting business daily. We guarantee performance, you focus on closing."
             avatars={[
-              { src: "http://img.b2bpic.net/free-photo/portrait-smiley-woman_23-2149022640.jpg", alt: "User" },
-              { src: "http://img.b2bpic.net/free-photo/business-concept-portrait-handsome-business-man-holding-hands-with-confident-face-white-background_1258-103959.jpg", alt: "User" },
-              { src: "http://img.b2bpic.net/free-photo/portrait-enthusiastic-delighted-adult-dark-skinned-woman-with-curly-haircut_176420-31214.jpg", alt: "User" },
-              { src: "http://img.b2bpic.net/free-photo/confident-handsome-middle-aged-entrepreneur_1262-4871.jpg", alt: "User" },
-              { src: "http://img.b2bpic.net/free-photo/portrait-smiley-business-woman_23-2148603029.jpg", alt: "User" },
+              { src: "https://images.unsplash.com/photo-1560250097-0b93528c31e6?q=80&w=300&h=300", alt: "Contractor" },
+              { src: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&h=300", alt: "Business Owner" },
+              { src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&h=300", alt: "Contractor" },
+              { src: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=300&h=300", alt: "Partner" },
+              { src: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=300&h=300", alt: "Executive" },
             ]}
-            avatarText="Trusted by 500+ growing contracting businesses "
+            avatarText="Trusted by 500+ growing contracting businesses"
             buttons={[
               { text: "See Results", href: "#metrics" },
               { text: "Start Today", href: "#contact" },
@@ -70,12 +70,12 @@ export default function LandingPage() {
             gridVariant="uniform-all-items-equal"
             useInvertedBackground={false}
             metrics={[
-              { id: "m1", value: "15,000+", title: "Leads Generated", description: "High-intent leads delivered monthly", icon: CheckCircle },
-              { id: "m2", value: "4.2x", title: "Average ROI", description: "Turning ad spend into revenue", icon: TrendingUp },
+              { id: "m1", value: "15,000+", title: "Leads Generated", description: "High-intent project inquiries monthly", icon: CheckCircle },
+              { id: "m2", value: "4.2x", title: "Average ROI", description: "Turning ad spend into real revenue", icon: TrendingUp },
               { id: "m3", value: "98%", title: "Lead Quality", description: "Verified through multi-step vetting", icon: ShieldCheck },
             ]}
             title="Proven Performance"
-            description="Our numbers speak for themselves. We optimize every funnel to maximize your conversion rate."
+            description="Our numbers speak for themselves. We optimize every funnel to maximize your conversion rate for high-value contracts."
           />
         </div>
 
@@ -84,13 +84,13 @@ export default function LandingPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-              { title: "Lead Qualification", description: "Every lead is screened against your specific buyer persona criteria.", imageSrc: "http://img.b2bpic.net/free-photo/busy-multicultural-diverse-employees-analysing-annual-financial-statistics-sitting-desk-front-laptop-holding-documents-searching-business-solutions-team-businesspeople-working-company_482257-13550.jpg", buttonIcon: UserCheck },
-              { title: "Strategy Mapping", description: "Custom funnel architecture designed to minimize friction for your users.", imageSrc: "http://img.b2bpic.net/free-photo/business-executives-reviewing-marketing-trends_482257-121143.jpg", buttonIcon: Map },
-              { title: "Automated Nurture", description: "Seamless email and SMS drip campaigns keep leads warm until handover.", imageSrc: "http://img.b2bpic.net/free-photo/diet-healthy-eating-natural-food_53876-121381.jpg", buttonIcon: Zap },
-              { title: "CRM Integration", description: "Direct syncing to your sales stack for real-time lead notification.", imageSrc: "http://img.b2bpic.net/free-photo/business-people-binary-code-sharing-technology-concept_53876-13712.jpg", buttonIcon: Database },
+              { title: "Lead Qualification", description: "Every lead is screened against your specific service criteria and location.", imageSrc: "https://images.unsplash.com/photo-1581092160607-ee22521dd763?q=80&w=800&h=600", buttonIcon: UserCheck },
+              { title: "Strategy Mapping", description: "Custom funnel architecture designed to minimize friction for homeowners and businesses.", imageSrc: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&h=600", buttonIcon: Map },
+              { title: "Automated Nurture", description: "Seamless SMS and email drip campaigns keep project leads warm until handover.", imageSrc: "https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=800&h=600", buttonIcon: Zap },
+              { title: "CRM Integration", description: "Direct syncing to your existing sales stack for real-time lead notification.", imageSrc: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=800&h=600", buttonIcon: Database },
             ]}
-            title="Why LeadGenius?"
-            description="We don't just send traffic; we curate conversations that convert."
+            title="Why Partner With Us?"
+            description="We don't just send traffic; we curate high-value conversations for contracting firms."
           />
         </div>
 
@@ -99,7 +99,7 @@ export default function LandingPage() {
             useInvertedBackground={false}
             title="Your Growth Engine"
             description={[
-              "We are a team of data-obsessed marketers dedicated to the pay-per-lead model. We take on the risk so you can focus on building your product.", "Our philosophy is simple: if you don't grow, we don't succeed. That's why we obsess over quality control, channel diversity, and ROI at every single step."]}
+              "We are a team of data-obsessed marketers dedicated to the pay-per-lead model for contracting businesses. We take on the risk so you can focus on building your brand.", "Our philosophy is simple: if you don't grow, we don't succeed. We obsess over quality control, channel diversity, and ROI at every single step."]}
           />
         </div>
 
@@ -109,14 +109,14 @@ export default function LandingPage() {
             textboxLayout="split"
             useInvertedBackground={false}
             testimonials={[
-              { id: "1", name: "Jane Smith", handle: "@janesmith", testimonial: "LeadGenius changed everything. Our sales team went from hunting leads to just closing them.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-caucasian-unshaved-man-eyeglasses-looking-camera-with-sincere-smile-isolated-gray_171337-630.jpg" },
-              { id: "2", name: "Mark Johnson", handle: "@markj", testimonial: "The lead quality is light years ahead of any other provider we have used.", imageSrc: "http://img.b2bpic.net/free-photo/skyscraper-view-city-leader-window-frame_1134-1034.jpg" },
-              { id: "3", name: "Sarah Lee", handle: "@sarahlee", testimonial: "Finally, a partner that understands true ROI. We are hitting our targets consistently.", imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1600.jpg" },
-              { id: "4", name: "David Brown", handle: "@dbrown", testimonial: "Exceptional communication and even better results. Highly recommended agency.", imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1676.jpg" },
-              { id: "5", name: "Emma Wilson", handle: "@ewilson", testimonial: "Consistent, reliable, and scalable. Exactly what our startup needed.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-blonde-businesswoman-formal-dressed-isolated-dark-textured-background_613910-5391.jpg" },
+              { id: "1", name: "Jane Smith", handle: "@janesmith", testimonial: "The project lead quality is light years ahead of any other provider we have used.", imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&h=300" },
+              { id: "2", name: "Mark Johnson", handle: "@markj", testimonial: "Our sales team went from hunting leads to just closing contracts daily.", imageSrc: "https://images.unsplash.com/photo-1560250097-0b93528c31e6?q=80&w=300&h=300" },
+              { id: "3", name: "Sarah Lee", handle: "@sarahlee", testimonial: "Finally, a partner that understands true ROI. We are hitting our targets consistently.", imageSrc: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&h=300" },
+              { id: "4", name: "David Brown", handle: "@dbrown", testimonial: "Exceptional communication and high-intent leads that actually turn into signed projects.", imageSrc: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=300&h=300" },
+              { id: "5", name: "Emma Wilson", handle: "@ewilson", testimonial: "Consistent, reliable, and scalable. Exactly what our contracting startup needed.", imageSrc: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=300&h=300" },
             ]}
             title="Voices of Success"
-            description="Hear from companies who transformed their sales pipeline with our service."
+            description="Hear from contracting firms who transformed their sales pipelines."
           />
         </div>
 
@@ -126,12 +126,12 @@ export default function LandingPage() {
             textboxLayout="split"
             useInvertedBackground={false}
             plans={[
-              { id: "basic", badge: "Entry", price: "$1,999/mo", subtitle: "Perfect for testing the funnel", features: ["50 Qualified Leads", "Dashboard Access", "Standard Support"], buttons: [{ text: "Select Plan", href: "#contact" }] },
-              { id: "pro", badge: "Growth", price: "$4,499/mo", subtitle: "Scale your sales pipeline", features: ["150 Qualified Leads", "Dedicated Account Manager", "Priority Support", "CRM Auto-Sync"], buttons: [{ text: "Select Plan", href: "#contact" }] },
-              { id: "enterprise", badge: "Scale", price: "Custom", subtitle: "Volume for market dominance", features: ["500+ Qualified Leads", "Full Strategy Audit", "24/7 Priority Support", "Custom Funnel Build"], buttons: [{ text: "Contact Us", href: "#contact" }] },
+              { id: "basic", badge: "Start", price: "$1,999/mo", subtitle: "Perfect for local testing", features: ["50 Verified Leads", "Dashboard Access", "Email Support"], buttons: [{ text: "Select Plan", href: "#contact" }] },
+              { id: "pro", badge: "Growth", price: "$4,499/mo", subtitle: "Scale your territory", features: ["150 Verified Leads", "Account Manager", "CRM Auto-Sync"], buttons: [{ text: "Select Plan", href: "#contact" }] },
+              { id: "enterprise", badge: "Scale", price: "Custom", subtitle: "Regional dominance", features: ["500+ Verified Leads", "Strategy Audit", "24/7 Priority Support"], buttons: [{ text: "Contact Us", href: "#contact" }] },
             ]}
             title="Transparent Pay-Per-Lead"
-            description="Choose the volume that fits your sales team's capacity."
+            description="Choose the lead volume that fits your team's capacity."
           />
         </div>
 
@@ -140,9 +140,9 @@ export default function LandingPage() {
             textboxLayout="split"
             useInvertedBackground={false}
             faqs={[
-              { id: "1", title: "How is lead quality determined?", content: "We use a multi-step verification process including phone validation and intent scoring." },
-              { id: "2", title: "Can I target specific regions?", content: "Absolutely. We build geo-fenced campaigns tailored to your service area." },
-              { id: "3", title: "Is there a long-term contract?", content: "We work on monthly cycles with no long-term commitment required." },
+              { id: "1", title: "How is lead quality verified?", content: "We use a multi-step verification process including phone validation and intent scoring." },
+              { id: "2", title: "Can I target specific regions?", content: "Absolutely. We build geo-fenced campaigns tailored precisely to your service area." },
+              { id: "3", title: "Is there a long-term contract?", content: "We work on flexible monthly cycles with no long-term commitment required." },
             ]}
             title="Common Questions"
             description="Everything you need to know about starting your campaign."
@@ -155,8 +155,8 @@ export default function LandingPage() {
             useInvertedBackground={false}
             background={{ variant: "plain" }}
             tag="Get Started"
-            title="Ready to Scale Your Sales?"
-            description="Let's discuss your revenue targets and how we can help you hit them. No sales fluff, just results."
+            title="Ready to Scale Your Contracting Business?"
+            description="Let's discuss your revenue targets and how we can help you hit them. No fluff, just results."
             buttons={[{ text: "Schedule Consultation", href: "#" }]}
           />
         </div>

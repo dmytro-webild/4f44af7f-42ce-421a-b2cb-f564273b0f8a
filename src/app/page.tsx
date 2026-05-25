@@ -37,7 +37,7 @@ export default function LandingPage() {
               { name: "Testimonials", id: "testimonials" },
               { name: "Pricing", id: "pricing" },
             ]}
-            brandName="LeadGenius"
+            brandName="Amplix "
             button={{ text: "Get Leads", href: "#contact" }}
           />
         </div>
@@ -54,7 +54,7 @@ export default function LandingPage() {
               { src: "http://img.b2bpic.net/free-photo/confident-handsome-middle-aged-entrepreneur_1262-4871.jpg", alt: "User" },
               { src: "http://img.b2bpic.net/free-photo/portrait-smiley-business-woman_23-2148603029.jpg", alt: "User" },
             ]}
-            avatarText="Trusted by 500+ growing agencies"
+            avatarText="Trusted by 500+ growing contracting businesses "
             buttons={[
               { text: "See Results", href: "#metrics" },
               { text: "Start Today", href: "#contact" },

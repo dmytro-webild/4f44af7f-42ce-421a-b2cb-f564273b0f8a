@@ -9,7 +9,6 @@ import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroCentered from '@/components/sections/hero/HeroCentered';
 import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCardSix';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import { CheckCircle, ShieldCheck, TrendingUp, UserCheck, Map, Zap, Database } from "lucide-react";
@@ -35,7 +34,6 @@ export default function LandingPage() {
               { name: "Results", id: "metrics" },
               { name: "Process", id: "features" },
               { name: "Testimonials", id: "testimonials" },
-              { name: "Pricing", id: "pricing" },
             ]}
             brandName="Amplix "
             button={{ text: "Get Leads", href: "#contact" }}
@@ -119,21 +117,6 @@ export default function LandingPage() {
             ]}
             title="Voices of Success"
             description="Hear from companies who transformed their sales pipeline with our service."
-          />
-        </div>
-
-        <div id="pricing" data-section="pricing">
-          <PricingCardEight
-            animationType="slide-up"
-            textboxLayout="split"
-            useInvertedBackground={false}
-            plans={[
-              { id: "basic", badge: "Entry", price: "$1,999/mo", subtitle: "Perfect for testing the funnel", features: ["50 Qualified Leads", "Dashboard Access", "Standard Support"], buttons: [{ text: "Select Plan", href: "#contact" }] },
-              { id: "pro", badge: "Growth", price: "$4,499/mo", subtitle: "Scale your sales pipeline", features: ["150 Qualified Leads", "Dedicated Account Manager", "Priority Support", "CRM Auto-Sync"], buttons: [{ text: "Select Plan", href: "#contact" }] },
-              { id: "enterprise", badge: "Scale", price: "Custom", subtitle: "Volume for market dominance", features: ["500+ Qualified Leads", "Full Strategy Audit", "24/7 Priority Support", "Custom Funnel Build"], buttons: [{ text: "Contact Us", href: "#contact" }] },
-            ]}
-            title="Transparent Pay-Per-Lead"
-            description="Choose the volume that fits your sales team's capacity."
           />
         </div>
 
